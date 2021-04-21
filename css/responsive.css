@@ -1,0 +1,401 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-nav .nav-link::before {
+        opacity: 0 !important;
+    }
+
+
+    #banner_part {
+        height: auto;
+    }
+
+    .banner_text {
+        padding-top: 170px;
+    }
+
+    .banner_text::before {
+        width: 380px;
+        height: 320px;
+        border: 16px solid #E8E8E8;
+        top: 98px;
+        left: -172px;
+    }
+
+    .banner_image {
+        top: 68px;
+    }
+
+    .banner_image::before {
+        top: 197px;
+        right: -155px;
+    }
+
+    #about_part {
+        padding-top: 60px;
+    }
+
+    .about_text p {
+        padding: 0;
+    }
+
+    #skill_part,
+    #portfolio_part,
+    #contact_part {
+        padding: 65px 0;
+    }
+
+    .skill.html_css,
+    .skill.javascript,
+    .skill.php,
+    .skill.python,
+    .skill.ruby {
+        margin-bottom: 50px;
+    }
+
+    .service_bg {
+        height: 201px;
+    }
+
+    .service_content {
+        padding: 60px 0;
+        margin-top: -100px;
+    }
+
+    .service_1,
+    .service_2 {
+        margin-bottom: 50px;
+    }
+
+    .portfolio_item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_1,
+    .portfolio_2,
+    .portfolio_3,
+    .portfolio_4,
+    .portfolio_5 {
+        margin-bottom: 30px;
+    }
+
+    #counter_part {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    .counter_1,
+    .counter_2 {
+        margin-bottom: 45px;
+    }
+
+    .container {
+        padding: 0px 15px;
+    }
+
+    .footer_social_icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_social_icon a {
+        margin-right: 12px;
+    }
+
+    .copywrite_text {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .navbar .container {
+        padding: 0 16px;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+
+}
+
+
+
+@media (max-width: 529.98px) {
+
+    .banner_image::before {
+        top: 174px;
+        right: -168px;
+        height: 355px;
+    }
+
+}
+
+
+
+@media (max-width: 479.98px) {
+    .banner_text::before {
+        width: 380px;
+        height: 290px;
+        border: 13px solid #E8E8E8;
+        top: 98px;
+        left: -210px;
+    }
+
+    .banner_text {
+        padding-top: 158px;
+    }
+
+    .banner_image::before {
+        top: 158px;
+        right: -186px;
+        border: 11px solid white;
+        height: 315px;
+    }
+}
+
+
+
+@media (max-width: 449.98px) {
+    .banner_image::before {
+        top: 144px;
+        right: -197px;
+        border: 11px solid white;
+        height: 296px;
+    }
+
+    .banner_text {
+        padding-top: 158px;
+    }
+}
+
+
+
+@media (max-width: 429.98px) {
+    .banner_button a.hire_me {
+        display: block;
+        text-align: center;
+        width: 185px;
+        margin-bottom: 20px;
+    }
+
+    .banner_text::before {
+        width: 380px;
+        height: 330px;
+        border: 13px solid #E8E8E8;
+        top: 98px;
+        left: -210px;
+    }
+
+    .banner_text {
+        padding-top: 143px;
+    }
+}
+
+
+
+
+@media (max-width: 409.98px) {
+
+
+    .banner_image::before {
+        top: 129px;
+        right: -206px;
+        border: 11px solid white;
+        height: 267px;
+    }
+
+}
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar-light .navbar-nav .nav-link::before {
+        opacity: 0 !important;
+    }
+
+    #banner_part {
+        height: auto;
+    }
+
+    .banner_text {
+        padding-top: 170px;
+    }
+
+    .banner_text::before {
+        width: 380px;
+        height: 320px;
+        border: 16px solid #E8E8E8;
+        top: 98px;
+        left: -172px;
+    }
+
+    .banner_image {
+        top: 68px;
+    }
+
+    #about_part {
+        padding-top: 60px;
+    }
+
+    .about_text p {
+        padding: 0;
+    }
+
+    #skill_part,
+    #portfolio_part,
+    #contact_part {
+        padding: 65px 0;
+    }
+
+    .skill.html_css,
+    .skill.javascript,
+    .skill.php,
+    .skill.python,
+    .skill.ruby {
+        margin-bottom: 50px;
+    }
+
+    .service_bg {
+        height: 201px;
+    }
+
+    .service_content {
+        padding: 60px 0;
+        margin-top: -100px;
+    }
+
+    .service_1,
+    .service_2 {
+        margin-bottom: 50px;
+    }
+
+    .portfolio_item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_1,
+    .portfolio_2,
+    .portfolio_3,
+    .portfolio_4,
+    .portfolio_5 {
+        margin-bottom: 30px;
+    }
+
+    #counter_part {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    .counter_1,
+    .counter_2 {
+        margin-bottom: 45px;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-light .navbar-nav .nav-link::before {
+        opacity: 0 !important;
+    }
+
+    #banner_part {
+        height: auto;
+    }
+
+    .banner_text {
+        padding-top: 170px;
+    }
+
+    .banner_text::before {
+        width: 380px;
+        height: 320px;
+        border: 16px solid #E8E8E8;
+        top: 98px;
+        left: -172px;
+    }
+
+    .banner_image {
+        top: 68px;
+    }
+
+    .service_bg {
+        height: 250px;
+    }
+
+    .service_content {
+        margin-top: -116px;
+        padding: 80px 0;
+    }
+
+    .service_1,
+    .service_2 {
+        margin-bottom: 50px;
+    }
+
+    .portfolio_1,
+    .portfolio_2,
+    .portfolio_3,
+    .portfolio_4 {
+        margin-bottom: 30px;
+    }
+
+    .counter_1,
+    .counter_2 {
+        margin-bottom: 45px;
+    }
+
+    #contact_part {
+        padding-top: 90px;
+    }
+
+    .openNav {
+        display: block;
+    }
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .banner_image {
+        top: 146px;
+    }
+
+    .banner_image::before {
+        height: 340px;
+        top: 170px;
+        right: -172px;
+    }
+
+    .service_text p {
+        padding: 0;
+    }
+
+    .mobile_menu .overlay {
+        display: none !important;
+    }
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    .mobile_menu .overlay {
+        display: none !important;
+    }
+
+}
